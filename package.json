@@ -1,0 +1,16 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "dev tinder by nikhil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Nikhil Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
