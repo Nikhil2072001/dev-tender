@@ -7,7 +7,7 @@ profileRouter.get('/profile/view',userAuth, async (req,res)=>{
     
     try{
        const user = req.user;
-        res.send({message:"Successfully fetched user: ",user});
+       res.send({message:"Successfully fetched user: ",user});
 
     }catch(err){
         res.status(500).send({message: "Error while loading profile details", err});
